@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    margin-left: 20px;
+}
+
+nav .menu a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+/* Filtros */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.filter-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.filter-item select, .filter-item input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#precio-value {
+    margin-top: 10px;
+    display: block;
+}
+
+/* Propiedades */
+.properties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.property {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.property h3 {
+    margin-top: 10px;
+    color: #007BFF;
+}
+
+.property p {
+    margin: 5px 0;
+}
